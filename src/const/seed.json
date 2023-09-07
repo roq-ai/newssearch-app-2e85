@@ -1,0 +1,2372 @@
+[
+  {
+    "search": [
+      {
+        "id": "e22e73a7-1f08-4059-a1d0-8a1c38c9e401",
+        "keyword": "apple",
+        "date": "2023-09-07T01:38:22.582Z",
+        "source_credibility": 30612,
+        "region": "North America",
+        "created_at": "2023-09-06T18:29:29.213Z",
+        "updated_at": "2023-09-06T11:53:14.799Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b848fa6c-1311-4609-a31d-88bedeaa1848",
+        "keyword": "banana",
+        "date": "2023-09-07T07:03:44.329Z",
+        "source_credibility": 66224,
+        "region": "Europe",
+        "created_at": "2023-09-06T14:20:24.820Z",
+        "updated_at": "2023-09-06T11:53:43.072Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d254cb91-c7da-4393-8e0d-741189793416",
+        "keyword": "orange",
+        "date": "2023-09-07T05:34:16.113Z",
+        "source_credibility": 77685,
+        "region": "Asia",
+        "created_at": "2023-09-07T00:15:52.174Z",
+        "updated_at": "2023-09-06T20:22:16.224Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbb0be68-da46-49df-bc23-786e99bbad20",
+        "keyword": "grape",
+        "date": "2023-09-06T19:40:35.980Z",
+        "source_credibility": 45298,
+        "region": "South America",
+        "created_at": "2023-09-06T14:30:08.574Z",
+        "updated_at": "2023-09-07T07:16:21.215Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b63b5971-392b-4531-9fdd-3b89124649e1",
+        "keyword": "watermelon",
+        "date": "2023-09-06T20:02:07.753Z",
+        "source_credibility": 59611,
+        "region": "Africa",
+        "created_at": "2023-09-07T04:54:53.762Z",
+        "updated_at": "2023-09-06T22:54:38.872Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "c572f3c9-001d-4154-9e6e-0a5cb4485e9f",
+        "title": "COVID-19 Vaccine Efficacy",
+        "summary": "A comprehensive analysis of COVID-19 vaccine efficacy.",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 48652,
+        "created_at": "2023-09-06T17:59:03.860Z",
+        "updated_at": "2023-09-06T18:48:35.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdc69bb0-6126-4e60-b916-84441449d1ee",
+        "title": "Climate Change Impact",
+        "summary": "The effects of climate change on various ecosystems.",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 93275,
+        "created_at": "2023-09-06T12:09:53.005Z",
+        "updated_at": "2023-09-06T19:15:23.493Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd292859-3cb2-400e-a057-b6d73e44a4b1",
+        "title": "Global Economic Growth",
+        "summary": "Examining the factors influencing global economic growth.",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 1057,
+        "created_at": "2023-09-06T16:19:33.090Z",
+        "updated_at": "2023-09-07T08:21:19.508Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "153837db-771a-4292-a137-042a64ea82b6",
+        "title": "Technology Advancements",
+        "summary": "The latest advancements in technology and their impact on society.",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 95472,
+        "created_at": "2023-09-06T10:10:32.455Z",
+        "updated_at": "2023-09-06T13:14:24.708Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a151a4b1-a1a8-4d96-81d9-9ede0a92cd77",
+        "title": "Health Benefits of Exercise",
+        "summary": "The positive impact of regular exercise on overall health.",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 66500,
+        "created_at": "2023-09-06T13:16:47.231Z",
+        "updated_at": "2023-09-07T08:58:42.168Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "15575f31-4d1c-4807-83e4-42d00d481b9d",
+        "content": "Great website!",
+        "created_at": "2023-09-06T15:18:18.528Z",
+        "updated_at": "2023-09-06T11:13:00.460Z",
+        "fact_check_id": "c572f3c9-001d-4154-9e6e-0a5cb4485e9f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "110d6420-29e9-4acd-8c7d-5e37008b1524",
+        "content": "Excellent service!",
+        "created_at": "2023-09-07T03:33:02.472Z",
+        "updated_at": "2023-09-07T02:19:39.373Z",
+        "fact_check_id": "fd292859-3cb2-400e-a057-b6d73e44a4b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ed1a570-3c7e-4b91-bce3-0df6614b0bc8",
+        "content": "Very informative content.",
+        "created_at": "2023-09-06T16:03:53.879Z",
+        "updated_at": "2023-09-07T02:15:02.175Z",
+        "fact_check_id": "fd292859-3cb2-400e-a057-b6d73e44a4b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "157147c1-2db1-4dcd-985e-0cd806ef60f9",
+        "content": "Easy to navigate.",
+        "created_at": "2023-09-06T15:17:53.839Z",
+        "updated_at": "2023-09-06T10:00:29.412Z",
+        "fact_check_id": "c572f3c9-001d-4154-9e6e-0a5cb4485e9f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aedf3eb7-a97a-427f-87a3-7a5322e65294",
+        "content": "Highly recommended.",
+        "created_at": "2023-09-06T15:19:17.385Z",
+        "updated_at": "2023-09-06T13:35:01.304Z",
+        "fact_check_id": "153837db-771a-4292-a137-042a64ea82b6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "02e11b4e-8808-4940-a6ed-4a28ac4676b8",
+        "title": "Introduction to Physics",
+        "content": "A beginner's guide to understanding the principles of physics.",
+        "created_at": "2023-09-06T23:55:33.057Z",
+        "updated_at": "2023-09-06T23:17:21.229Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb6dfb85-f63b-406a-8d3b-a7ca6a0b9bfd",
+        "title": "History of Ancient Civilizations",
+        "content": "Exploring the rise and fall of ancient civilizations.",
+        "created_at": "2023-09-06T15:57:09.880Z",
+        "updated_at": "2023-09-07T00:21:04.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef439942-43c2-4496-b45e-7e8b4cd25d50",
+        "title": "Programming Basics",
+        "content": "Learn the basics of programming with hands-on examples.",
+        "created_at": "2023-09-06T10:12:33.945Z",
+        "updated_at": "2023-09-07T09:27:46.567Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee499f77-e424-4778-9a46-f370626f798e",
+        "title": "Artificial Intelligence Applications",
+        "content": "Discover the various applications of artificial intelligence.",
+        "created_at": "2023-09-06T11:33:58.348Z",
+        "updated_at": "2023-09-06T11:43:49.821Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a2429cb-7c2f-4c0e-86cc-81572e15f4ce",
+        "title": "Environmental Conservation",
+        "content": "The importance of environmental conservation for a sustainable future.",
+        "created_at": "2023-09-07T09:42:36.563Z",
+        "updated_at": "2023-09-07T01:32:36.314Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "29199671-a2b0-4676-a1f2-484b2bb48a39",
+        "email": "Joyce_MacGyver@gmail.com",
+        "firstName": "Mayra",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25910011",
+        "tenantId": null
+      },
+      {
+        "reference": "f96e373c-8fc4-48a0-89b1-21415955c5be",
+        "email": "Chelsey.Hammes@yahoo.com",
+        "firstName": "Antonia",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/965.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b410600-8677-4854-a8d3-662f338bd491",
+        "email": "Alivia.Towne-Mante20@gmail.com",
+        "firstName": "Dwight",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1074.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba0ebf76-0604-4006-be0e-5792a456366c",
+        "email": "Kolby_Feeney5@hotmail.com",
+        "firstName": "Matt",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61446510",
+        "tenantId": null
+      },
+      {
+        "reference": "73a828bd-88cd-4ac1-b5a6-4b1edd0dbf0a",
+        "email": "Barney.Hilll@gmail.com",
+        "firstName": "Jovani",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92925663",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "166a03a9-410a-462d-8a00-be3a6b0971a5",
+        "keyword": "technology",
+        "date": "2023-09-06T11:49:59.164Z",
+        "source_credibility": 1411,
+        "region": "North America",
+        "created_at": "2023-09-07T05:36:20.517Z",
+        "updated_at": "2023-09-06T18:36:27.548Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bfaaf87-166b-4e91-aea0-493457005056",
+        "keyword": "healthcare",
+        "date": "2023-09-06T20:17:16.861Z",
+        "source_credibility": 15730,
+        "region": "Europe",
+        "created_at": "2023-09-06T14:12:53.104Z",
+        "updated_at": "2023-09-06T17:10:08.685Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca382f17-db55-4ccc-a388-07e5aefc6f15",
+        "keyword": "finance",
+        "date": "2023-09-06T22:08:45.762Z",
+        "source_credibility": 85442,
+        "region": "Asia",
+        "created_at": "2023-09-07T03:07:22.476Z",
+        "updated_at": "2023-09-07T00:11:48.097Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7f5c60a-fcc6-4f99-8485-f858ce1a26b0",
+        "keyword": "education",
+        "date": "2023-09-06T13:42:35.195Z",
+        "source_credibility": 91665,
+        "region": "South America",
+        "created_at": "2023-09-06T13:01:36.766Z",
+        "updated_at": "2023-09-07T06:46:05.831Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ede2569-5699-4192-b2e3-99a4c27eae75",
+        "keyword": "travel",
+        "date": "2023-09-06T17:46:41.994Z",
+        "source_credibility": 77323,
+        "region": "Africa",
+        "created_at": "2023-09-07T00:32:27.836Z",
+        "updated_at": "2023-09-06T15:32:28.470Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "a1b125eb-f4f2-4b1e-b864-5fe61e85f96a",
+        "title": "Fact Check 1",
+        "summary": "This is a summary 1",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 19724,
+        "created_at": "2023-09-06T18:28:32.428Z",
+        "updated_at": "2023-09-07T05:11:42.201Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4398db43-4e41-4fed-88f5-469bdfc43cde",
+        "title": "Fact Check 2",
+        "summary": "This is a summary 2",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 39120,
+        "created_at": "2023-09-06T17:59:47.947Z",
+        "updated_at": "2023-09-07T07:56:28.517Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc02c4f1-0ad7-444a-b0ed-53ad9c0b43e1",
+        "title": "Fact Check 3",
+        "summary": "This is a summary 3",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 19338,
+        "created_at": "2023-09-07T08:02:47.395Z",
+        "updated_at": "2023-09-06T12:19:53.980Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c37f59b-b802-403b-ae5b-5e77f336f298",
+        "title": "Fact Check 4",
+        "summary": "This is a summary 4",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 2507,
+        "created_at": "2023-09-07T00:31:09.621Z",
+        "updated_at": "2023-09-06T14:33:57.289Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82d953e0-7e50-4f61-98b7-619aed64cd90",
+        "title": "Fact Check 5",
+        "summary": "This is a summary 5",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 27856,
+        "created_at": "2023-09-06T19:38:57.484Z",
+        "updated_at": "2023-09-06T23:39:55.050Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "45cb5031-089a-4953-bd04-fe6a543e3356",
+        "content": "Great website!",
+        "created_at": "2023-09-06T13:10:59.165Z",
+        "updated_at": "2023-09-06T22:22:36.488Z",
+        "fact_check_id": "a1b125eb-f4f2-4b1e-b864-5fe61e85f96a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f42d4b8-faf0-47a0-9c98-7432345691d2",
+        "content": "Very informative content.",
+        "created_at": "2023-09-07T05:10:37.699Z",
+        "updated_at": "2023-09-06T11:02:21.769Z",
+        "fact_check_id": "bc02c4f1-0ad7-444a-b0ed-53ad9c0b43e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "242b8be6-19ce-495a-b11a-fbc5ced26cb4",
+        "content": "I found a bug on the website.",
+        "created_at": "2023-09-06T14:54:15.463Z",
+        "updated_at": "2023-09-06T18:45:20.418Z",
+        "fact_check_id": "a1b125eb-f4f2-4b1e-b864-5fe61e85f96a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be3b5866-45e8-47e1-94b2-ce8bec1407c5",
+        "content": "The website is user-friendly.",
+        "created_at": "2023-09-06T13:42:00.909Z",
+        "updated_at": "2023-09-06T18:11:31.140Z",
+        "fact_check_id": "bc02c4f1-0ad7-444a-b0ed-53ad9c0b43e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03ff6c4f-274e-411f-82de-dddbd7bbdd0e",
+        "content": "I love the design of the website.",
+        "created_at": "2023-09-06T19:26:50.780Z",
+        "updated_at": "2023-09-06T22:57:40.704Z",
+        "fact_check_id": "bc02c4f1-0ad7-444a-b0ed-53ad9c0b43e1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "58c64b98-4e04-4fdd-b7b3-d172b6f110b8",
+        "title": "Introduction to Python",
+        "content": "This resource provides an introduction to Python programming language.",
+        "created_at": "2023-09-06T23:51:17.347Z",
+        "updated_at": "2023-09-07T01:28:56.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fddfd31-96f5-409e-93a6-16562373b45e",
+        "title": "Learn JavaScript Basics",
+        "content": "Learn the basics of JavaScript with this comprehensive resource.",
+        "created_at": "2023-09-06T23:10:54.857Z",
+        "updated_at": "2023-09-06T16:07:47.008Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62312e98-3d5f-4f7d-aa3b-8d33ad62eeda",
+        "title": "Mastering Data Science",
+        "content": "Become an expert in data science with this comprehensive guide.",
+        "created_at": "2023-09-06T23:01:11.499Z",
+        "updated_at": "2023-09-07T01:32:31.289Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f1793b5-61b6-40b4-b09d-fcf2e45e7eb2",
+        "title": "Web Development Fundamentals",
+        "content": "Learn the fundamentals of web development with this resource.",
+        "created_at": "2023-09-06T16:24:24.301Z",
+        "updated_at": "2023-09-07T02:47:00.864Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba3f046d-b239-45d4-ab8b-8e2bb4c1d5a4",
+        "title": "Digital Marketing Strategies",
+        "content": "Discover effective digital marketing strategies with this resource.",
+        "created_at": "2023-09-06T14:19:07.464Z",
+        "updated_at": "2023-09-06T13:03:53.104Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25c073e4-19e0-4996-8f17-7242cbd2703c",
+        "email": "Clement28@hotmail.com",
+        "firstName": "Mercedes",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/520.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "46dc90b7-29e4-429e-9bb7-c2e9ba957e5b",
+        "email": "Javon33@hotmail.com",
+        "firstName": "Reggie",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "036c45f0-d965-4d3c-9682-4d278ea55d65",
+        "email": "Moriah_Goldner37@yahoo.com",
+        "firstName": "Raven",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66239859",
+        "tenantId": null
+      },
+      {
+        "reference": "4515f55b-058b-4c78-a6c3-b4b8859e614a",
+        "email": "Dejon.Greenfelder15@hotmail.com",
+        "firstName": "Dell",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45719544",
+        "tenantId": null
+      },
+      {
+        "reference": "446da5b2-82bc-483a-9d56-a36ddbe76f8a",
+        "email": "Maureen.Schneider@yahoo.com",
+        "firstName": "Oswald",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/545.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "1b283beb-6b66-41a0-bef2-72c44e9daeea",
+        "keyword": "technology",
+        "date": "2023-09-07T04:59:26.475Z",
+        "source_credibility": 86552,
+        "region": "North America",
+        "created_at": "2023-09-06T17:53:14.969Z",
+        "updated_at": "2023-09-07T08:59:27.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e24b05ce-8404-49d7-84a2-bee8e419b8fe",
+        "keyword": "healthcare",
+        "date": "2023-09-06T15:22:31.832Z",
+        "source_credibility": 17787,
+        "region": "Europe",
+        "created_at": "2023-09-06T12:18:07.386Z",
+        "updated_at": "2023-09-07T09:43:15.144Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404f3561-2b8d-4828-ac95-1508fabc790f",
+        "keyword": "finance",
+        "date": "2023-09-06T23:18:46.408Z",
+        "source_credibility": 82117,
+        "region": "Asia",
+        "created_at": "2023-09-07T00:54:17.823Z",
+        "updated_at": "2023-09-07T03:32:05.105Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "706defa2-02eb-4144-b042-810a0524eda3",
+        "keyword": "education",
+        "date": "2023-09-07T00:09:15.729Z",
+        "source_credibility": 36916,
+        "region": "South America",
+        "created_at": "2023-09-06T16:51:45.146Z",
+        "updated_at": "2023-09-07T06:24:25.701Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0890875d-4775-406b-87c5-b5046078f21c",
+        "keyword": "travel",
+        "date": "2023-09-06T23:32:58.892Z",
+        "source_credibility": 84878,
+        "region": "Africa",
+        "created_at": "2023-09-07T02:46:20.046Z",
+        "updated_at": "2023-09-06T10:47:25.798Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "cf97decd-3b64-4790-8230-5b8cb98d23a6",
+        "title": "New Study Reveals Surprising Facts",
+        "summary": "Find out what's really happening",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 7593,
+        "created_at": "2023-09-06T18:53:19.186Z",
+        "updated_at": "2023-09-06T18:09:02.262Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14a5b3a5-783d-45d6-a102-65cfe6abbb41",
+        "title": "Breaking News: Fact Check",
+        "summary": "Get the facts straight",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 36350,
+        "created_at": "2023-09-06T17:03:39.698Z",
+        "updated_at": "2023-09-07T02:21:22.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "308b6587-3da4-417c-ae72-d50b4cfb1368",
+        "title": "Uncovering the Truth Behind the Rumors",
+        "summary": "Don't be fooled by misinformation",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 52337,
+        "created_at": "2023-09-07T05:48:36.442Z",
+        "updated_at": "2023-09-07T09:13:37.676Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c059d46-64e3-4898-a210-ec0b23d149cd",
+        "title": "Investigating the Latest Claims",
+        "summary": "Discover the truth",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 23554,
+        "created_at": "2023-09-07T01:33:03.420Z",
+        "updated_at": "2023-09-07T07:10:41.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01154a24-1117-4eb6-a9f6-d111647b6049",
+        "title": "Debunking Myths: The Real Story",
+        "summary": "Separating fact from fiction",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 6073,
+        "created_at": "2023-09-07T03:56:02.452Z",
+        "updated_at": "2023-09-06T11:31:00.076Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "ff71c22f-eafd-42ce-8442-0ff21f14f6ba",
+        "content": "Great job!",
+        "created_at": "2023-09-06T13:39:17.143Z",
+        "updated_at": "2023-09-06T23:39:13.558Z",
+        "fact_check_id": "cf97decd-3b64-4790-8230-5b8cb98d23a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30d04923-505e-4280-9099-04ca5fda3a9e",
+        "content": "I found this helpful",
+        "created_at": "2023-09-07T04:41:54.127Z",
+        "updated_at": "2023-09-06T16:35:53.919Z",
+        "fact_check_id": "14a5b3a5-783d-45d6-a102-65cfe6abbb41",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0ad036a-f2e0-4039-b08f-37a685cbf1ef",
+        "content": "Could use some improvement",
+        "created_at": "2023-09-07T02:24:50.764Z",
+        "updated_at": "2023-09-06T16:56:09.007Z",
+        "fact_check_id": "308b6587-3da4-417c-ae72-d50b4cfb1368",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91b215ed-d17a-423c-915f-222353decaec",
+        "content": "Not accurate",
+        "created_at": "2023-09-06T17:56:42.288Z",
+        "updated_at": "2023-09-06T10:08:29.404Z",
+        "fact_check_id": "14a5b3a5-783d-45d6-a102-65cfe6abbb41",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8a2551c-775e-4a58-851e-1fc1d7288db2",
+        "content": "Needs more information",
+        "created_at": "2023-09-06T21:05:19.845Z",
+        "updated_at": "2023-09-06T19:01:56.856Z",
+        "fact_check_id": "14a5b3a5-783d-45d6-a102-65cfe6abbb41",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "c18485ee-756d-4e90-bfc2-970f65568927",
+        "title": "Learn a New Skill",
+        "content": "Step-by-step instructions",
+        "created_at": "2023-09-07T08:41:29.307Z",
+        "updated_at": "2023-09-06T12:03:36.743Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "344302eb-c84d-4f9a-8825-45f24127ba1a",
+        "title": "Mastering the Basics",
+        "content": "In-depth explanations",
+        "created_at": "2023-09-07T04:30:08.900Z",
+        "updated_at": "2023-09-06T15:52:51.160Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "761af21a-1f8e-4c2d-ada1-0055b64af1bf",
+        "title": "The Ultimate Guide to",
+        "content": "Practical tips and tricks",
+        "created_at": "2023-09-06T22:51:43.886Z",
+        "updated_at": "2023-09-06T14:26:12.844Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45566ba3-d5ef-4e5f-8715-b79c8bd1ae11",
+        "title": "Unlocking Your Potential",
+        "content": "Real-life examples",
+        "created_at": "2023-09-07T00:59:48.011Z",
+        "updated_at": "2023-09-07T02:18:44.445Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc4ef1f4-ea4d-473f-91c1-8dbc63f04fa7",
+        "title": "Discover the Secrets of",
+        "content": "Expert advice",
+        "created_at": "2023-09-06T22:46:07.254Z",
+        "updated_at": "2023-09-06T20:26:54.439Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "78e7de76-5098-4702-99fd-636326c13994",
+        "email": "Emiliano71@yahoo.com",
+        "firstName": "Norma",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86044776",
+        "tenantId": null
+      },
+      {
+        "reference": "86fcdfd6-1c4b-4dea-857d-6acb9d118423",
+        "email": "Murray_Gottlieb@gmail.com",
+        "firstName": "Cedrick",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/307.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e6d39d6-1886-43c2-881a-77e0fd9bcaed",
+        "email": "Juston_Schuster28@hotmail.com",
+        "firstName": "Lura",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21867716",
+        "tenantId": null
+      },
+      {
+        "reference": "71b9913e-575c-4e16-83a3-7b681a8430e3",
+        "email": "Keira18@yahoo.com",
+        "firstName": "Brendan",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85067260",
+        "tenantId": null
+      },
+      {
+        "reference": "683e3f0b-5dd1-4c09-ab4a-d04db62ad22d",
+        "email": "Sonny_Satterfield-Ebert@yahoo.com",
+        "firstName": "Benton",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20199418",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "6a1cd31b-a661-4aec-a8c9-d76152f1327f",
+        "keyword": "technology",
+        "date": "2023-09-07T01:44:09.289Z",
+        "source_credibility": 67247,
+        "region": "North America",
+        "created_at": "2023-09-06T12:08:39.483Z",
+        "updated_at": "2023-09-06T11:19:05.988Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ce893c2-09ee-4aa9-9ec6-6873ed18086b",
+        "keyword": "healthcare",
+        "date": "2023-09-06T19:51:10.591Z",
+        "source_credibility": 59042,
+        "region": "Europe",
+        "created_at": "2023-09-07T00:39:35.370Z",
+        "updated_at": "2023-09-06T10:32:18.535Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f430dcd9-a2f1-435d-aa59-4b45a4c465ad",
+        "keyword": "finance",
+        "date": "2023-09-06T15:33:27.579Z",
+        "source_credibility": 13327,
+        "region": "Asia",
+        "created_at": "2023-09-07T08:02:54.104Z",
+        "updated_at": "2023-09-06T11:54:06.207Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14c0e3c4-3caf-4f7a-9e7d-324c5d89f2ee",
+        "keyword": "education",
+        "date": "2023-09-07T07:06:29.269Z",
+        "source_credibility": 86714,
+        "region": "Africa",
+        "created_at": "2023-09-07T03:29:20.150Z",
+        "updated_at": "2023-09-07T09:38:29.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "851f9763-3652-4320-b320-d348d618e3c5",
+        "keyword": "travel",
+        "date": "2023-09-06T21:49:08.836Z",
+        "source_credibility": 4928,
+        "region": "South America",
+        "created_at": "2023-09-06T18:00:54.290Z",
+        "updated_at": "2023-09-06T12:31:55.170Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "3d1d2f8e-6d26-44b6-9967-bb8878d66a7b",
+        "title": "COVID-19 Vaccines",
+        "summary": "Fact-checking the effectiveness of COVID-19 vaccines.",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 63646,
+        "created_at": "2023-09-07T04:01:31.097Z",
+        "updated_at": "2023-09-07T02:35:52.510Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4506784-b349-4194-a262-4c6b333d7bfd",
+        "title": "Climate Change",
+        "summary": "Examining the impact of climate change on the environment.",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 31990,
+        "created_at": "2023-09-07T08:42:57.183Z",
+        "updated_at": "2023-09-06T23:11:13.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f45bcfb-d355-4779-8efc-213776bd1222",
+        "title": "Artificial Intelligence",
+        "summary": "Analyzing the role of artificial intelligence in modern society.",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 59939,
+        "created_at": "2023-09-07T04:48:01.060Z",
+        "updated_at": "2023-09-07T01:22:58.572Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebe5a402-73b1-49ed-a1ad-2b4f05466679",
+        "title": "Renewable Energy",
+        "summary": "Exploring the benefits of renewable energy sources.",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 44099,
+        "created_at": "2023-09-07T08:55:08.346Z",
+        "updated_at": "2023-09-07T01:37:41.480Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5192af5b-ac4b-447c-8f5e-c18364c4f187",
+        "title": "Global Economy",
+        "summary": "Assessing the current state of the global economy.",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 25457,
+        "created_at": "2023-09-06T23:41:44.193Z",
+        "updated_at": "2023-09-06T17:27:30.324Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "f5bd4a36-156a-4175-b29b-10c147d4cce2",
+        "content": "Great website!",
+        "created_at": "2023-09-06T18:58:46.206Z",
+        "updated_at": "2023-09-07T06:49:26.909Z",
+        "fact_check_id": "3d1d2f8e-6d26-44b6-9967-bb8878d66a7b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "521571a6-41e6-4c28-aa8a-08fdac9bed89",
+        "content": "Very informative content.",
+        "created_at": "2023-09-06T14:25:24.375Z",
+        "updated_at": "2023-09-06T11:17:13.391Z",
+        "fact_check_id": "ebe5a402-73b1-49ed-a1ad-2b4f05466679",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b810f8-914c-4e71-a898-66ad4e914df6",
+        "content": "Easy to navigate.",
+        "created_at": "2023-09-06T21:46:38.079Z",
+        "updated_at": "2023-09-07T09:08:06.790Z",
+        "fact_check_id": "a4506784-b349-4194-a262-4c6b333d7bfd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63457afa-7d96-40be-a9de-3381b453395d",
+        "content": "Could use more visuals.",
+        "created_at": "2023-09-06T21:23:39.877Z",
+        "updated_at": "2023-09-07T00:25:18.852Z",
+        "fact_check_id": "ebe5a402-73b1-49ed-a1ad-2b4f05466679",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6c956ba-1c5f-4806-bff9-f275b8cfe689",
+        "content": "Needs improvement in search functionality.",
+        "created_at": "2023-09-06T22:28:11.725Z",
+        "updated_at": "2023-09-07T04:50:37.065Z",
+        "fact_check_id": "3d1d2f8e-6d26-44b6-9967-bb8878d66a7b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "bf240064-00da-46c3-82de-687e916b1808",
+        "title": "Introduction to Programming",
+        "content": "Learn the basics of programming with this comprehensive guide.",
+        "created_at": "2023-09-07T04:05:33.897Z",
+        "updated_at": "2023-09-06T18:14:15.238Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40abaf83-28b9-4fc8-aa1a-88a177192e98",
+        "title": "Beginner's Guide to Photography",
+        "content": "Discover the art of photography and improve your skills.",
+        "created_at": "2023-09-06T20:09:11.868Z",
+        "updated_at": "2023-09-06T19:33:57.002Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0469c9f0-1ca0-482d-81f1-f4ebad82e6a5",
+        "title": "Financial Planning 101",
+        "content": "Master the fundamentals of financial planning for a secure future.",
+        "created_at": "2023-09-07T06:01:23.793Z",
+        "updated_at": "2023-09-06T21:19:04.000Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ef39bf0-2ed8-4238-96fb-f430207ab4e0",
+        "title": "Effective Communication Skills",
+        "content": "Enhance your communication skills for better personal and professional relationships.",
+        "created_at": "2023-09-06T20:27:16.946Z",
+        "updated_at": "2023-09-06T18:06:42.681Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d550bc4-a9dd-4e22-bee9-7f7707f77587",
+        "title": "History of Ancient Civilizations",
+        "content": "Explore the fascinating history of ancient civilizations.",
+        "created_at": "2023-09-07T01:33:25.193Z",
+        "updated_at": "2023-09-06T10:11:19.411Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bc9c91af-a832-42af-9f20-c3ab69ae8ff5",
+        "email": "Alfredo_Corkery@gmail.com",
+        "firstName": "Patrick",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77493330",
+        "tenantId": null
+      },
+      {
+        "reference": "b32d4583-c83f-4fb5-99dd-29e21772b5ff",
+        "email": "Bernie_Gerhold@yahoo.com",
+        "firstName": "Julien",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/975.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8c1daf1f-27ea-4116-9f78-a033bdc2f0a1",
+        "email": "Carlie37@hotmail.com",
+        "firstName": "Justus",
+        "lastName": "O'Connell-Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/81.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b901ddc-89d6-446f-b71a-8ba603688bc3",
+        "email": "Christop76@yahoo.com",
+        "firstName": "Carter",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/538.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "55208a65-298f-4c23-9c7a-82019df0209e",
+        "email": "Rolando45@gmail.com",
+        "firstName": "Maximillian",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/810.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "ec4a0199-2637-484d-a176-73a292602853",
+        "keyword": "technology",
+        "date": "2023-09-06T12:26:45.453Z",
+        "source_credibility": 6777,
+        "region": "North America",
+        "created_at": "2023-09-07T02:35:28.719Z",
+        "updated_at": "2023-09-06T18:33:08.397Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "455c5394-5198-411a-832a-47d957740335",
+        "keyword": "healthcare",
+        "date": "2023-09-06T11:58:21.162Z",
+        "source_credibility": 22632,
+        "region": "Europe",
+        "created_at": "2023-09-07T04:09:34.776Z",
+        "updated_at": "2023-09-07T08:08:41.817Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cbcf28c-81ce-4c72-ad79-58d64a988bf6",
+        "keyword": "finance",
+        "date": "2023-09-06T23:06:30.962Z",
+        "source_credibility": 24289,
+        "region": "Asia",
+        "created_at": "2023-09-06T23:12:57.457Z",
+        "updated_at": "2023-09-06T13:34:59.618Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8d2fca4-b41b-42c1-b184-38006b58157e",
+        "keyword": "education",
+        "date": "2023-09-07T01:53:18.910Z",
+        "source_credibility": 11112,
+        "region": "South America",
+        "created_at": "2023-09-07T05:22:18.318Z",
+        "updated_at": "2023-09-06T16:17:50.230Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e958f58d-fcb5-4146-a747-c0a1ed0b4c3e",
+        "keyword": "travel",
+        "date": "2023-09-06T19:47:19.035Z",
+        "source_credibility": 24227,
+        "region": "Africa",
+        "created_at": "2023-09-07T00:15:48.272Z",
+        "updated_at": "2023-09-06T17:11:15.349Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "9efdcd56-a566-413a-9569-cd4af90741d0",
+        "title": "COVID-19 Vaccines",
+        "summary": "A comprehensive analysis of COVID-19 vaccines.",
+        "source_link": "https://www.example.com/article1",
+        "source_credibility": 40569,
+        "created_at": "2023-09-06T19:48:08.267Z",
+        "updated_at": "2023-09-07T05:38:57.423Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd9c9e90-131c-4760-bd98-6caef199b8cf",
+        "title": "Climate Change",
+        "summary": "The impact of climate change on our planet.",
+        "source_link": "https://www.example.com/article2",
+        "source_credibility": 37986,
+        "created_at": "2023-09-07T01:27:58.456Z",
+        "updated_at": "2023-09-07T04:56:55.179Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71b884db-f8a5-4b43-9d1d-7430f74e0ed6",
+        "title": "Artificial Intelligence",
+        "summary": "Exploring the potential of artificial intelligence.",
+        "source_link": "https://www.example.com/article3",
+        "source_credibility": 36048,
+        "created_at": "2023-09-06T19:26:12.226Z",
+        "updated_at": "2023-09-06T22:28:45.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0770c9dc-b143-4639-8359-c8306bc0afc0",
+        "title": "Global Warming",
+        "summary": "Understanding the effects of global warming.",
+        "source_link": "https://www.example.com/article4",
+        "source_credibility": 31477,
+        "created_at": "2023-09-06T19:27:20.238Z",
+        "updated_at": "2023-09-06T17:52:30.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ffd8113-5ba7-4adc-8d9e-96db225476d9",
+        "title": "Renewable Energy",
+        "summary": "The benefits of renewable energy sources.",
+        "source_link": "https://www.example.com/article5",
+        "source_credibility": 48030,
+        "created_at": "2023-09-07T06:23:56.620Z",
+        "updated_at": "2023-09-06T23:56:22.669Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "2fad6212-2061-42b5-b407-437033128909",
+        "content": "Great website!",
+        "created_at": "2023-09-06T21:05:48.885Z",
+        "updated_at": "2023-09-07T03:09:00.271Z",
+        "fact_check_id": "2ffd8113-5ba7-4adc-8d9e-96db225476d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77523030-c539-481d-aaf5-d2d2b19a60fa",
+        "content": "Very informative content.",
+        "created_at": "2023-09-06T12:47:13.456Z",
+        "updated_at": "2023-09-07T04:06:15.067Z",
+        "fact_check_id": "0770c9dc-b143-4639-8359-c8306bc0afc0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9135225-02c7-4fef-a277-06992c325202",
+        "content": "I found this resource very helpful.",
+        "created_at": "2023-09-06T18:26:50.930Z",
+        "updated_at": "2023-09-06T22:30:12.739Z",
+        "fact_check_id": "71b884db-f8a5-4b43-9d1d-7430f74e0ed6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "628a03d4-4e66-4302-9732-25b405895592",
+        "content": "Easy to navigate and find information.",
+        "created_at": "2023-09-07T07:45:52.715Z",
+        "updated_at": "2023-09-06T12:02:49.935Z",
+        "fact_check_id": "cd9c9e90-131c-4760-bd98-6caef199b8cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "341ed0b0-d821-4ba6-b08b-9e2217c3cb4a",
+        "content": "I would recommend this site to others.",
+        "created_at": "2023-09-06T15:51:01.094Z",
+        "updated_at": "2023-09-07T03:55:48.665Z",
+        "fact_check_id": "0770c9dc-b143-4639-8359-c8306bc0afc0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "2b4ace7c-6a73-4199-80d1-552a840264f0",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language.",
+        "created_at": "2023-09-07T04:24:21.672Z",
+        "updated_at": "2023-09-06T23:27:11.174Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0904d681-ba82-4f36-9db4-c95984b53e37",
+        "title": "Beginner's Guide to Photography",
+        "content": "Master the art of photography with this guide.",
+        "created_at": "2023-09-07T04:07:46.837Z",
+        "updated_at": "2023-09-06T20:54:56.612Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00fc32dc-3991-4589-8d11-d4310d22c302",
+        "title": "Financial Planning 101",
+        "content": "Understand the fundamentals of financial planning.",
+        "created_at": "2023-09-06T13:53:24.169Z",
+        "updated_at": "2023-09-07T08:46:07.282Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404955c1-36c2-46a3-bf44-4966acc8c4db",
+        "title": "History of Ancient Civilizations",
+        "content": "Explore the history of ancient civilizations.",
+        "created_at": "2023-09-07T03:03:07.018Z",
+        "updated_at": "2023-09-07T03:41:32.550Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f2b3f91-4884-4cbd-8a73-73433a9f2f95",
+        "title": "The Science of Climate Change",
+        "content": "Discover the science behind climate change.",
+        "created_at": "2023-09-06T17:32:11.821Z",
+        "updated_at": "2023-09-07T01:17:02.886Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2079df0-044b-468b-a457-1e4d0b5dffbd",
+        "email": "Zander50@hotmail.com",
+        "firstName": "Lulu",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/505.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b381e934-a1b0-4cd7-9110-d1c3c4041f07",
+        "email": "Nayeli73@hotmail.com",
+        "firstName": "Brady",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44903804",
+        "tenantId": null
+      },
+      {
+        "reference": "c9429522-ac30-4792-b926-12dba1701190",
+        "email": "Elvie_Keebler13@yahoo.com",
+        "firstName": "Isaac",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13235395",
+        "tenantId": null
+      },
+      {
+        "reference": "157dab23-c8d1-4bb5-852f-61c9ba7a7cda",
+        "email": "Muhammad91@yahoo.com",
+        "firstName": "Angelita",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1052.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "674745a5-a93f-47d2-9e81-e846a76b83fa",
+        "email": "Walton.Walker@gmail.com",
+        "firstName": "Jewell",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/159.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "ab8b34d8-7512-4fa3-9c24-39a8d75dfa60",
+        "keyword": "technology",
+        "date": "2023-09-07T09:05:49.593Z",
+        "source_credibility": 42961,
+        "region": "North America",
+        "created_at": "2023-09-06T11:10:51.980Z",
+        "updated_at": "2023-09-06T19:59:56.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15be430d-e593-429a-898a-fd5985b82228",
+        "keyword": "healthcare",
+        "date": "2023-09-07T07:57:21.217Z",
+        "source_credibility": 73309,
+        "region": "Europe",
+        "created_at": "2023-09-06T22:22:58.483Z",
+        "updated_at": "2023-09-07T02:58:51.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8258e2d5-e022-4b2c-8630-2091b98504ce",
+        "keyword": "finance",
+        "date": "2023-09-06T20:43:22.080Z",
+        "source_credibility": 77880,
+        "region": "Asia",
+        "created_at": "2023-09-06T18:43:30.334Z",
+        "updated_at": "2023-09-06T20:16:12.535Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75184af8-7942-45a3-934c-cac052970d47",
+        "keyword": "education",
+        "date": "2023-09-07T04:27:14.298Z",
+        "source_credibility": 48383,
+        "region": "Africa",
+        "created_at": "2023-09-06T10:39:14.660Z",
+        "updated_at": "2023-09-06T10:25:55.604Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1fa07d8-1066-465c-8826-bfdb23dcae4a",
+        "keyword": "travel",
+        "date": "2023-09-07T05:57:40.592Z",
+        "source_credibility": 63996,
+        "region": "South America",
+        "created_at": "2023-09-06T18:53:20.203Z",
+        "updated_at": "2023-09-06T16:53:27.470Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "3f47a027-fb0a-494f-84e0-4b2f9e62d2d3",
+        "title": "COVID-19 Vaccine Efficacy",
+        "summary": "New study shows promising results",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 29885,
+        "created_at": "2023-09-07T06:43:13.344Z",
+        "updated_at": "2023-09-06T20:01:48.959Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c547670-692f-48bc-bb1c-2beed1976586",
+        "title": "Climate Change Impact",
+        "summary": "Scientists warn about dire consequences",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 63065,
+        "created_at": "2023-09-06T19:10:15.892Z",
+        "updated_at": "2023-09-06T18:43:06.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3eb1001-09ff-492f-9f14-1f00723d1013",
+        "title": "Election Fraud Claims",
+        "summary": "Investigation finds no evidence",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 67658,
+        "created_at": "2023-09-06T13:17:02.531Z",
+        "updated_at": "2023-09-06T17:21:42.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83e1b866-56e2-47e9-b960-b4e2a66a0dac",
+        "title": "Benefits of Exercise",
+        "summary": "Discover the importance of staying active",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 93796,
+        "created_at": "2023-09-06T23:56:21.331Z",
+        "updated_at": "2023-09-06T15:20:02.895Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "debf15fe-3252-4d39-adbb-e3ac31a8e706",
+        "title": "Impact of Social Media",
+        "summary": "Study reveals the influence of online platforms",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 62087,
+        "created_at": "2023-09-07T03:18:22.527Z",
+        "updated_at": "2023-09-06T18:39:04.435Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "6638b5e0-8f67-4945-9bf0-20ea86941db3",
+        "content": "Great website!",
+        "created_at": "2023-09-06T15:40:36.435Z",
+        "updated_at": "2023-09-07T06:36:48.506Z",
+        "fact_check_id": "0c547670-692f-48bc-bb1c-2beed1976586",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20af296b-6cfa-499c-89c6-fc9a8c2cd384",
+        "content": "I found the information helpful",
+        "created_at": "2023-09-06T16:54:23.982Z",
+        "updated_at": "2023-09-07T01:16:22.575Z",
+        "fact_check_id": "0c547670-692f-48bc-bb1c-2beed1976586",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81352d4e-abca-4b6a-9bee-961cb6f1aafb",
+        "content": "Could use some improvements",
+        "created_at": "2023-09-06T10:24:13.732Z",
+        "updated_at": "2023-09-07T08:27:03.690Z",
+        "fact_check_id": "3f47a027-fb0a-494f-84e0-4b2f9e62d2d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a92143d6-6994-439e-ae2c-b1959be2aa69",
+        "content": "Not satisfied with the service",
+        "created_at": "2023-09-07T05:44:48.039Z",
+        "updated_at": "2023-09-07T00:01:55.101Z",
+        "fact_check_id": "debf15fe-3252-4d39-adbb-e3ac31a8e706",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da6ea74f-f52e-4a2e-a20e-f110136d0927",
+        "content": "Highly recommended",
+        "created_at": "2023-09-07T07:17:00.317Z",
+        "updated_at": "2023-09-06T22:20:34.076Z",
+        "fact_check_id": "3f47a027-fb0a-494f-84e0-4b2f9e62d2d3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "e151fb92-4a1d-4db6-bd0f-bf66d1e7f4ab",
+        "title": "Introduction to Python Programming",
+        "content": "Learn the fundamentals of Python programming",
+        "created_at": "2023-09-06T23:49:57.794Z",
+        "updated_at": "2023-09-07T00:30:20.243Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "576779ca-b599-40ee-b055-82445239c99c",
+        "title": "History of Ancient Civilizations",
+        "content": "Explore the rise and fall of ancient civilizations",
+        "created_at": "2023-09-06T18:15:49.121Z",
+        "updated_at": "2023-09-06T18:28:46.335Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26bcddf9-06b6-4b00-b729-b80e08741f76",
+        "title": "Financial Planning Basics",
+        "content": "Discover the key principles of financial planning",
+        "created_at": "2023-09-06T10:24:01.159Z",
+        "updated_at": "2023-09-06T21:53:15.768Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f6053a5-d06a-4003-8a42-aa931332aa60",
+        "title": "Effective Communication Skills",
+        "content": "Improve your communication skills for personal and professional success",
+        "created_at": "2023-09-07T04:38:11.530Z",
+        "updated_at": "2023-09-06T11:21:43.475Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab66217a-ca1e-40b0-91c9-789c016a4315",
+        "title": "Travel Photography Tips",
+        "content": "Capture stunning travel photos with these expert tips",
+        "created_at": "2023-09-06T10:40:57.254Z",
+        "updated_at": "2023-09-07T08:32:11.147Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "380e27d7-f341-40ee-95db-fe55bb81fcae",
+        "email": "Garth_Macejkovic73@gmail.com",
+        "firstName": "Wilhelm",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/253.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08f6d9c5-9245-4bbb-bdfc-ab265e7076f9",
+        "email": "Josiane59@hotmail.com",
+        "firstName": "Elton",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6047113f-0995-43e5-b22e-ada584291820",
+        "email": "Raleigh.Padberg76@yahoo.com",
+        "firstName": "Cole",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35497966",
+        "tenantId": null
+      },
+      {
+        "reference": "653bb153-5299-4c68-93f2-5ea17ecb917f",
+        "email": "Rosetta38@yahoo.com",
+        "firstName": "Elwyn",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/713.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f709cb1a-c890-4971-bba4-62313cc42f22",
+        "email": "Jeffry70@gmail.com",
+        "firstName": "Deshaun",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/499.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "10e8d361-57bb-422d-a3c4-71780e147619",
+        "keyword": "technology",
+        "date": "2023-09-06T19:34:34.176Z",
+        "source_credibility": 85868,
+        "region": "North America",
+        "created_at": "2023-09-06T13:41:12.052Z",
+        "updated_at": "2023-09-07T04:54:30.830Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1f0b8c2-93d0-4868-a6aa-c48629171e0f",
+        "keyword": "healthcare",
+        "date": "2023-09-07T04:12:53.005Z",
+        "source_credibility": 5492,
+        "region": "Europe",
+        "created_at": "2023-09-07T02:05:45.958Z",
+        "updated_at": "2023-09-06T19:54:47.241Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31691efd-e28f-47eb-934d-248504e1e602",
+        "keyword": "finance",
+        "date": "2023-09-07T08:59:02.261Z",
+        "source_credibility": 78005,
+        "region": "Asia",
+        "created_at": "2023-09-07T05:05:10.789Z",
+        "updated_at": "2023-09-06T20:26:51.653Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e07c6e30-2eae-406c-9a38-d170d54b7687",
+        "keyword": "education",
+        "date": "2023-09-06T21:17:09.690Z",
+        "source_credibility": 73031,
+        "region": "South America",
+        "created_at": "2023-09-06T21:24:25.306Z",
+        "updated_at": "2023-09-06T14:28:27.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "562149bf-dfce-4efe-8bfb-25703ddaaa69",
+        "keyword": "travel",
+        "date": "2023-09-07T03:56:17.151Z",
+        "source_credibility": 90802,
+        "region": "Africa",
+        "created_at": "2023-09-07T01:15:33.483Z",
+        "updated_at": "2023-09-06T14:35:11.455Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "dfc9c238-682a-4e9e-8ea4-f201c6a3bdcb",
+        "title": "COVID-19 Vaccine Efficacy",
+        "summary": "A study on the effectiveness of COVID-19 vaccines.",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 25117,
+        "created_at": "2023-09-06T12:34:17.343Z",
+        "updated_at": "2023-09-06T16:17:59.684Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b3d90ea-e407-4689-ac5a-215d415f554c",
+        "title": "Climate Change Effects",
+        "summary": "The consequences of climate change on the environment.",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 98454,
+        "created_at": "2023-09-07T06:53:07.693Z",
+        "updated_at": "2023-09-06T23:15:48.208Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a3e27e5-9610-4a9b-aec2-075a4447e400",
+        "title": "Benefits of Exercise",
+        "summary": "The positive effects of regular exercise on overall health.",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 89878,
+        "created_at": "2023-09-07T02:01:02.915Z",
+        "updated_at": "2023-09-06T12:03:22.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ca68de5-43d1-4e18-82fb-7324c1b7cbd9",
+        "title": "Impact of Social Media",
+        "summary": "The influence of social media on society.",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 22832,
+        "created_at": "2023-09-06T19:54:51.048Z",
+        "updated_at": "2023-09-07T08:20:21.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1483b6b-4e97-4b25-9019-ddaa0b567655",
+        "title": "The History of World War II",
+        "summary": "An overview of the events during World War II.",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 9527,
+        "created_at": "2023-09-07T00:43:00.900Z",
+        "updated_at": "2023-09-06T17:40:11.014Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "f387aa8c-0e4a-4199-9613-dd3cd8e49931",
+        "content": "Great website!",
+        "created_at": "2023-09-06T11:57:23.557Z",
+        "updated_at": "2023-09-07T06:59:25.413Z",
+        "fact_check_id": "3b3d90ea-e407-4689-ac5a-215d415f554c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e95a5d7-bc23-400e-9133-4e7ada080871",
+        "content": "Very informative content.",
+        "created_at": "2023-09-07T05:06:00.824Z",
+        "updated_at": "2023-09-07T06:20:15.779Z",
+        "fact_check_id": "2a3e27e5-9610-4a9b-aec2-075a4447e400",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b91ec9d-6b77-487b-a335-e01c1bfef0d3",
+        "content": "User-friendly interface.",
+        "created_at": "2023-09-06T23:10:10.974Z",
+        "updated_at": "2023-09-06T15:05:49.189Z",
+        "fact_check_id": "3b3d90ea-e407-4689-ac5a-215d415f554c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01b842dc-a19e-4219-b0e9-63d499479f2b",
+        "content": "Excellent customer support.",
+        "created_at": "2023-09-06T18:55:26.437Z",
+        "updated_at": "2023-09-07T00:59:02.118Z",
+        "fact_check_id": "f1483b6b-4e97-4b25-9019-ddaa0b567655",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "509af13a-3f9b-4aa8-af58-99f543fa24fb",
+        "content": "Highly recommended.",
+        "created_at": "2023-09-06T13:52:16.416Z",
+        "updated_at": "2023-09-06T21:17:40.456Z",
+        "fact_check_id": "3b3d90ea-e407-4689-ac5a-215d415f554c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "377ce3dd-88ee-4451-a56f-b18f668b2621",
+        "title": "Introduction to Python Programming",
+        "content": "Learn the basics of Python programming language.",
+        "created_at": "2023-09-06T20:02:24.104Z",
+        "updated_at": "2023-09-06T19:26:31.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "457f9c56-e174-4cfc-b934-ad2662b283cb",
+        "title": "Beginner's Guide to Photography",
+        "content": "Explore the fundamentals of photography.",
+        "created_at": "2023-09-07T05:14:02.783Z",
+        "updated_at": "2023-09-06T16:58:41.430Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bfbd67e-00b3-4d17-8743-c3d4ac68fcf4",
+        "title": "Financial Planning 101",
+        "content": "Understand the principles of financial planning.",
+        "created_at": "2023-09-06T21:43:48.428Z",
+        "updated_at": "2023-09-06T19:11:56.543Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a5498da-6862-4a4b-9f71-62e32460e7c0",
+        "title": "Effective Communication Skills",
+        "content": "Improve your communication skills for better relationships.",
+        "created_at": "2023-09-06T10:36:29.896Z",
+        "updated_at": "2023-09-06T22:09:00.693Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6aa6246-57b8-4aa3-ad6d-e8e9b85f0fd5",
+        "title": "History of Ancient Civilizations",
+        "content": "Discover the rich history of ancient civilizations.",
+        "created_at": "2023-09-06T22:46:45.640Z",
+        "updated_at": "2023-09-07T08:04:36.629Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c406d24a-c507-426d-a47f-adf7bc630743",
+        "email": "Cecil64@gmail.com",
+        "firstName": "Hardy",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/481.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "06e96c2f-6b5a-446c-ae72-ae4f07144cd0",
+        "email": "Willard_Gerhold12@gmail.com",
+        "firstName": "Libbie",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59969503",
+        "tenantId": null
+      },
+      {
+        "reference": "cf66e3de-9605-4471-a993-0cffb3fb5ed0",
+        "email": "Kody_Marquardt@yahoo.com",
+        "firstName": "Maxwell",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/476.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "43a9502e-3da4-4181-81e7-899955969a99",
+        "email": "Zella70@hotmail.com",
+        "firstName": "Anna",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/33.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2cffef68-2c76-4c0b-a513-4aaba4b69b26",
+        "email": "Hilda75@gmail.com",
+        "firstName": "Mittie",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16377352",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "0b899671-416b-4e58-acac-005bbfe36c99",
+        "keyword": "apple",
+        "date": "2023-09-06T10:19:22.324Z",
+        "source_credibility": 82576,
+        "region": "New York",
+        "created_at": "2023-09-06T11:44:48.238Z",
+        "updated_at": "2023-09-06T18:15:34.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaac81d4-4cf1-44ff-939f-aaf0bb503481",
+        "keyword": "car",
+        "date": "2023-09-07T07:54:04.753Z",
+        "source_credibility": 80755,
+        "region": "London",
+        "created_at": "2023-09-07T02:59:11.086Z",
+        "updated_at": "2023-09-06T15:54:37.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fa736e0-c3bb-4695-a72f-682ef5bc56a4",
+        "keyword": "football",
+        "date": "2023-09-06T22:32:05.530Z",
+        "source_credibility": 22533,
+        "region": "Tokyo",
+        "created_at": "2023-09-07T07:41:44.461Z",
+        "updated_at": "2023-09-07T07:40:12.389Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20ebcf0b-6dbc-4261-8766-fc16dab74c7b",
+        "keyword": "travel",
+        "date": "2023-09-07T02:33:38.366Z",
+        "source_credibility": 98522,
+        "region": "Paris",
+        "created_at": "2023-09-07T01:14:47.119Z",
+        "updated_at": "2023-09-07T04:04:45.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdd3e781-8ea3-476a-838d-f7bc95b673d8",
+        "keyword": "music",
+        "date": "2023-09-06T14:40:51.576Z",
+        "source_credibility": 48180,
+        "region": "Sydney",
+        "created_at": "2023-09-06T14:17:28.725Z",
+        "updated_at": "2023-09-06T13:32:04.855Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "b7d2ec80-5314-4240-99b9-24ef8b0b3f5a",
+        "title": "COVID-19 Vaccine Efficacy",
+        "summary": "New study shows promising results",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 83728,
+        "created_at": "2023-09-07T01:52:40.474Z",
+        "updated_at": "2023-09-06T11:45:09.662Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa0680b0-ae03-493c-8569-1dc5c4778653",
+        "title": "Climate Change Impact",
+        "summary": "Scientists warn about rising temperatures",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 55890,
+        "created_at": "2023-09-06T11:09:59.083Z",
+        "updated_at": "2023-09-06T14:34:16.428Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9a32667-4cc6-4296-97bb-9692c7662488",
+        "title": "Benefits of Exercise",
+        "summary": "Regular exercise improves overall health",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 70595,
+        "created_at": "2023-09-07T07:42:21.854Z",
+        "updated_at": "2023-09-07T04:16:03.844Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52834704-b637-49c3-93ff-1163131c4d58",
+        "title": "Effects of Smoking",
+        "summary": "Smoking increases the risk of lung cancer",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 65807,
+        "created_at": "2023-09-06T18:12:40.926Z",
+        "updated_at": "2023-09-06T14:29:43.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8015833-679d-4bfc-b56e-1d87cef95858",
+        "title": "Nutritional Myths",
+        "summary": "Debunking common nutrition misconceptions",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 87903,
+        "created_at": "2023-09-07T03:43:25.604Z",
+        "updated_at": "2023-09-07T03:43:12.202Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "b280a3fe-2423-4473-bcec-aaa8eab95f84",
+        "content": "Great website!",
+        "created_at": "2023-09-06T17:21:10.701Z",
+        "updated_at": "2023-09-06T16:01:26.483Z",
+        "fact_check_id": "f9a32667-4cc6-4296-97bb-9692c7662488",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e748ea3-3127-4f5c-851c-89835ecbbf50",
+        "content": "Easy to use and navigate",
+        "created_at": "2023-09-06T19:04:41.744Z",
+        "updated_at": "2023-09-07T09:06:27.609Z",
+        "fact_check_id": "b7d2ec80-5314-4240-99b9-24ef8b0b3f5a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81647df5-f0e7-475a-b42a-883d7979aee9",
+        "content": "Informative content",
+        "created_at": "2023-09-06T12:33:59.076Z",
+        "updated_at": "2023-09-06T22:30:48.693Z",
+        "fact_check_id": "a8015833-679d-4bfc-b56e-1d87cef95858",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f51f45e-9013-4ee5-8647-22bd2ba87ea3",
+        "content": "Could use more images",
+        "created_at": "2023-09-07T05:48:04.114Z",
+        "updated_at": "2023-09-07T08:09:09.196Z",
+        "fact_check_id": "b7d2ec80-5314-4240-99b9-24ef8b0b3f5a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "152efa30-3a66-48b6-8fb2-49b6271fdb01",
+        "content": "Well-researched articles",
+        "created_at": "2023-09-06T16:07:55.319Z",
+        "updated_at": "2023-09-06T13:05:12.601Z",
+        "fact_check_id": "52834704-b637-49c3-93ff-1163131c4d58",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "e3481dca-79a8-445e-acc2-13c884b4be4c",
+        "title": "Introduction to Physics",
+        "content": "Learn the fundamental principles of physics",
+        "created_at": "2023-09-07T02:37:33.661Z",
+        "updated_at": "2023-09-06T11:21:08.830Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ed6f66d-7c72-4df2-b05a-4da3d775905b",
+        "title": "Beginner's Guide to Programming",
+        "content": "Start your coding journey with Python",
+        "created_at": "2023-09-06T14:02:29.686Z",
+        "updated_at": "2023-09-06T13:03:02.345Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "206222cb-803b-4362-8d6d-06bb3b238220",
+        "title": "History of Ancient Civilizations",
+        "content": "Explore the ancient world and its cultures",
+        "created_at": "2023-09-07T09:28:01.247Z",
+        "updated_at": "2023-09-07T09:50:49.754Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea129787-f719-4770-a143-1721a39b4d56",
+        "title": "Artificial Intelligence Basics",
+        "content": "Discover the basics of AI technology",
+        "created_at": "2023-09-07T09:47:04.443Z",
+        "updated_at": "2023-09-06T11:50:44.584Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fadb291-6306-4b7c-898d-be9b4ce03681",
+        "title": "Understanding Climate Change",
+        "content": "Gain insights into the causes and effects of climate change",
+        "created_at": "2023-09-06T21:53:38.293Z",
+        "updated_at": "2023-09-06T16:16:41.169Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d4a9e30a-766b-4c7a-af0e-6e7eb25aef1f",
+        "email": "Alec.Klein@hotmail.com",
+        "firstName": "Maeve",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62454595",
+        "tenantId": null
+      },
+      {
+        "reference": "da1c813a-3628-43a1-9aba-b5f47e645a76",
+        "email": "Ronny_Rutherford45@hotmail.com",
+        "firstName": "Brayan",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/543.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a9b6d046-2900-49ff-bc2b-32bf8a1afaf3",
+        "email": "Julian47@gmail.com",
+        "firstName": "Marilou",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/123.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88c9575a-c650-4fe9-9e74-37859c28b46d",
+        "email": "Osborne19@yahoo.com",
+        "firstName": "Dayana",
+        "lastName": "Torphy-Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1093.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7dd66458-909f-42e5-80bd-44e4e0c2212a",
+        "email": "Mackenzie23@hotmail.com",
+        "firstName": "Dandre",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44099855",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "1a710961-68ca-4243-850d-62bd58b6f411",
+        "keyword": "apple",
+        "date": "2023-09-06T14:44:38.316Z",
+        "source_credibility": 43729,
+        "region": "North America",
+        "created_at": "2023-09-07T05:29:37.517Z",
+        "updated_at": "2023-09-06T12:59:38.677Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "553e7290-0513-4220-84be-d6c874ce6ad4",
+        "keyword": "banana",
+        "date": "2023-09-06T18:35:44.103Z",
+        "source_credibility": 15829,
+        "region": "Europe",
+        "created_at": "2023-09-06T23:54:55.428Z",
+        "updated_at": "2023-09-07T04:11:44.319Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c4b62e5-f126-4351-abdb-221c4fab3b2b",
+        "keyword": "orange",
+        "date": "2023-09-06T16:44:43.127Z",
+        "source_credibility": 23760,
+        "region": "Asia",
+        "created_at": "2023-09-07T01:58:37.337Z",
+        "updated_at": "2023-09-07T07:48:38.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e7f3512-731a-44ba-8a01-c91126740590",
+        "keyword": "grape",
+        "date": "2023-09-06T23:54:26.963Z",
+        "source_credibility": 64396,
+        "region": "South America",
+        "created_at": "2023-09-06T20:50:35.676Z",
+        "updated_at": "2023-09-06T22:57:20.682Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d876673-e60b-481d-b355-7fa151ee4eac",
+        "keyword": "watermelon",
+        "date": "2023-09-07T06:48:15.497Z",
+        "source_credibility": 94202,
+        "region": "Africa",
+        "created_at": "2023-09-06T11:00:09.349Z",
+        "updated_at": "2023-09-06T15:44:58.544Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "cc34f4d4-5c81-42a2-84e7-c7df1557692b",
+        "title": "COVID-19 Vaccine Efficacy",
+        "summary": "A study on the effectiveness of COVID-19 vaccines.",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 21675,
+        "created_at": "2023-09-06T11:26:05.346Z",
+        "updated_at": "2023-09-06T18:23:12.468Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abbbc2ac-9aa6-49e9-9ae4-6f7d1606e11b",
+        "title": "Climate Change Impact",
+        "summary": "Research on the impact of climate change on ecosystems.",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 37037,
+        "created_at": "2023-09-06T13:13:09.682Z",
+        "updated_at": "2023-09-07T09:18:33.575Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f753dd4c-b908-4b22-9954-b32129158400",
+        "title": "Benefits of Exercise",
+        "summary": "The positive effects of regular exercise on health.",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 29078,
+        "created_at": "2023-09-06T14:55:21.260Z",
+        "updated_at": "2023-09-06T20:28:07.892Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea7ca87e-67fb-494b-98ad-77649e850a5c",
+        "title": "Importance of Sleep",
+        "summary": "The importance of getting enough sleep for overall well-being.",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 88754,
+        "created_at": "2023-09-06T16:54:19.542Z",
+        "updated_at": "2023-09-06T19:56:04.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "198e5fb1-89b0-4944-82bd-49e619e86bef",
+        "title": "Effects of Smoking",
+        "summary": "The harmful effects of smoking on the body.",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 92265,
+        "created_at": "2023-09-06T10:54:36.939Z",
+        "updated_at": "2023-09-07T03:36:41.524Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "42d422b0-cc6b-4ee9-92a6-37e9204e86b3",
+        "content": "Great website!",
+        "created_at": "2023-09-07T01:41:26.440Z",
+        "updated_at": "2023-09-06T21:06:53.314Z",
+        "fact_check_id": "abbbc2ac-9aa6-49e9-9ae4-6f7d1606e11b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0443d962-38de-4cc3-bed4-5503e77548c7",
+        "content": "Easy to use interface.",
+        "created_at": "2023-09-07T05:51:06.648Z",
+        "updated_at": "2023-09-06T21:16:58.931Z",
+        "fact_check_id": "abbbc2ac-9aa6-49e9-9ae4-6f7d1606e11b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12d326a8-8772-493c-8b37-1dc21c9d78a5",
+        "content": "Helpful information.",
+        "created_at": "2023-09-06T21:51:00.954Z",
+        "updated_at": "2023-09-06T19:06:55.565Z",
+        "fact_check_id": "cc34f4d4-5c81-42a2-84e7-c7df1557692b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20ecbbbe-4339-4067-8c29-4f843cbb055a",
+        "content": "Could use more resources.",
+        "created_at": "2023-09-07T08:48:25.355Z",
+        "updated_at": "2023-09-06T17:55:36.750Z",
+        "fact_check_id": "cc34f4d4-5c81-42a2-84e7-c7df1557692b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bef5631c-2582-46a4-be87-34eb8713cf9f",
+        "content": "Loved the educational content.",
+        "created_at": "2023-09-06T14:34:19.787Z",
+        "updated_at": "2023-09-06T12:33:29.321Z",
+        "fact_check_id": "cc34f4d4-5c81-42a2-84e7-c7df1557692b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "8f622771-6348-40c8-9637-968485dc7e4c",
+        "title": "Introduction to Biology",
+        "content": "Learn the basics of biology and its importance in the natural world.",
+        "created_at": "2023-09-06T19:36:22.462Z",
+        "updated_at": "2023-09-07T08:52:30.037Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d30dce3-c7ba-410e-bcdf-c376b4fc6d18",
+        "title": "History of World War II",
+        "content": "Explore the events and impact of World War II.",
+        "created_at": "2023-09-07T04:35:08.759Z",
+        "updated_at": "2023-09-06T14:06:11.546Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c060b3d-eb8f-46b1-be42-ca3aad5a8306",
+        "title": "Beginner's Guide to Programming",
+        "content": "A beginner's guide to programming languages and concepts.",
+        "created_at": "2023-09-06T14:17:35.153Z",
+        "updated_at": "2023-09-07T07:20:48.837Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dbee661-8c7b-4c6f-b065-5e8fdd63ac73",
+        "title": "Artificial Intelligence Basics",
+        "content": "An introduction to artificial intelligence and its applications.",
+        "created_at": "2023-09-06T16:13:28.157Z",
+        "updated_at": "2023-09-06T14:27:06.607Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04c100a9-6dea-4a3e-ac7a-4b0dbec72909",
+        "title": "Healthy Eating Tips",
+        "content": "Tips and advice for maintaining a healthy diet.",
+        "created_at": "2023-09-07T06:25:46.953Z",
+        "updated_at": "2023-09-06T14:22:13.196Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c17e3ae0-d9e1-43b5-af5c-1b9d3af3a06d",
+        "email": "Heather_Hessel71@yahoo.com",
+        "firstName": "George",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77138968",
+        "tenantId": null
+      },
+      {
+        "reference": "563fd8b3-cb12-4a84-bf3d-fb46d7a7703e",
+        "email": "Murphy39@gmail.com",
+        "firstName": "Raegan",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/244.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8a47717f-2094-4940-a3dd-02887e3b1a31",
+        "email": "Merritt.Johnston@gmail.com",
+        "firstName": "Ursula",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/553.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3874be86-4236-4c48-841a-a526a6348f14",
+        "email": "Joyce.Simonis53@yahoo.com",
+        "firstName": "Alene",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/30.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f7de446-105b-4ac7-8b9e-8b6b13f195e0",
+        "email": "Cody84@hotmail.com",
+        "firstName": "Magdalena",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48692861",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "71758ffe-6c50-4b3b-8b2f-9e33d6ad5f47",
+        "keyword": "technology",
+        "date": "2023-09-06T12:53:13.622Z",
+        "source_credibility": 94738,
+        "region": "North America",
+        "created_at": "2023-09-07T06:26:04.113Z",
+        "updated_at": "2023-09-06T13:43:33.289Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c25835e-fb23-4a7b-a2f2-10bf6271f681",
+        "keyword": "healthcare",
+        "date": "2023-09-07T02:01:46.090Z",
+        "source_credibility": 30604,
+        "region": "Europe",
+        "created_at": "2023-09-07T04:04:32.989Z",
+        "updated_at": "2023-09-06T11:47:45.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a826c92c-1eff-4eaa-9f3f-1c6d04c5a8fd",
+        "keyword": "finance",
+        "date": "2023-09-07T07:13:23.794Z",
+        "source_credibility": 89116,
+        "region": "Asia",
+        "created_at": "2023-09-07T04:03:46.530Z",
+        "updated_at": "2023-09-06T14:21:16.178Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25c5e279-9af0-4009-bc4e-69eb84749e4e",
+        "keyword": "education",
+        "date": "2023-09-07T09:24:51.124Z",
+        "source_credibility": 44418,
+        "region": "Africa",
+        "created_at": "2023-09-07T01:05:46.305Z",
+        "updated_at": "2023-09-07T03:24:37.936Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "defbb207-feee-44f1-a78a-847746def64d",
+        "keyword": "travel",
+        "date": "2023-09-06T13:14:15.598Z",
+        "source_credibility": 56692,
+        "region": "South America",
+        "created_at": "2023-09-06T11:00:02.217Z",
+        "updated_at": "2023-09-06T17:38:24.486Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fact_check": [
+      {
+        "id": "abacbc33-bd8b-4369-a1d9-384cb4b1946d",
+        "title": "COVID-19 Vaccine Efficacy",
+        "summary": "A comprehensive study on the effectiveness of COVID-19 vaccines.",
+        "source_link": "https://example.com/article1",
+        "source_credibility": 8215,
+        "created_at": "2023-09-06T17:18:55.220Z",
+        "updated_at": "2023-09-07T02:42:57.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed25e6bf-0cbf-4929-8eb7-7864e48ea113",
+        "title": "Climate Change Effects",
+        "summary": "Exploring the consequences of climate change on the environment.",
+        "source_link": "https://example.com/article2",
+        "source_credibility": 95546,
+        "created_at": "2023-09-07T07:40:35.859Z",
+        "updated_at": "2023-09-07T01:34:49.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aaecc5a8-66ab-415d-bd33-fc2a6fdf35f8",
+        "title": "Benefits of Exercise",
+        "summary": "The positive effects of regular exercise on physical and mental health.",
+        "source_link": "https://example.com/article3",
+        "source_credibility": 48151,
+        "created_at": "2023-09-07T05:12:36.115Z",
+        "updated_at": "2023-09-07T09:04:04.043Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dea18f70-0972-407b-9582-a2430fb369c6",
+        "title": "Impact of Social Media",
+        "summary": "Examining the influence of social media on society.",
+        "source_link": "https://example.com/article4",
+        "source_credibility": 88931,
+        "created_at": "2023-09-07T07:20:15.174Z",
+        "updated_at": "2023-09-06T14:23:50.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81cbc9d7-ca1c-4146-bfa2-2f490936158b",
+        "title": "Food and Nutrition Myths",
+        "summary": "Debunking common misconceptions about food and nutrition.",
+        "source_link": "https://example.com/article5",
+        "source_credibility": 67170,
+        "created_at": "2023-09-06T16:59:58.305Z",
+        "updated_at": "2023-09-06T13:31:43.517Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "36f4998f-26f2-4eba-bea0-eacc276496e3",
+        "content": "Great website!",
+        "created_at": "2023-09-06T21:14:45.439Z",
+        "updated_at": "2023-09-07T05:26:37.189Z",
+        "fact_check_id": "abacbc33-bd8b-4369-a1d9-384cb4b1946d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0df206db-13fc-4dd3-ac26-1b785e40648a",
+        "content": "Very informative content.",
+        "created_at": "2023-09-07T03:44:06.882Z",
+        "updated_at": "2023-09-06T20:12:58.809Z",
+        "fact_check_id": "ed25e6bf-0cbf-4929-8eb7-7864e48ea113",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a75e705-addd-47c9-bd6f-0368be47f9c2",
+        "content": "User-friendly interface.",
+        "created_at": "2023-09-06T22:02:12.282Z",
+        "updated_at": "2023-09-07T02:03:31.911Z",
+        "fact_check_id": "dea18f70-0972-407b-9582-a2430fb369c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b12fbc96-2573-4191-a9b5-3953fdc4df1b",
+        "content": "Helpful resources.",
+        "created_at": "2023-09-06T20:22:00.442Z",
+        "updated_at": "2023-09-07T05:47:33.952Z",
+        "fact_check_id": "ed25e6bf-0cbf-4929-8eb7-7864e48ea113",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54b80fa6-0606-4f76-8182-de261ce259cf",
+        "content": "Highly recommended.",
+        "created_at": "2023-09-07T08:44:40.259Z",
+        "updated_at": "2023-09-06T16:49:14.985Z",
+        "fact_check_id": "ed25e6bf-0cbf-4929-8eb7-7864e48ea113",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "educational_resource": [
+      {
+        "id": "525fe327-b029-4105-8021-bced208be941",
+        "title": "Introduction to Python Programming",
+        "content": "Learn the basics of Python programming language.",
+        "created_at": "2023-09-07T09:28:15.000Z",
+        "updated_at": "2023-09-07T03:54:15.601Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1fd6bee-3d62-4bcf-880e-c843ca47b863",
+        "title": "Beginner's Guide to Machine Learning",
+        "content": "A comprehensive guide for beginners to understand machine learning concepts.",
+        "created_at": "2023-09-06T16:25:47.814Z",
+        "updated_at": "2023-09-06T14:29:16.945Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8147530d-4f43-4d93-8734-b58e1c1ff116",
+        "title": "Financial Planning 101",
+        "content": "Tips for effective financial planning and budgeting.",
+        "created_at": "2023-09-06T17:57:15.997Z",
+        "updated_at": "2023-09-07T03:31:16.987Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48cc928e-733a-4e9d-a352-901a0e99cff0",
+        "title": "The History of Ancient Civilizations",
+        "content": "Explore the rise and fall of ancient civilizations.",
+        "created_at": "2023-09-06T21:58:54.910Z",
+        "updated_at": "2023-09-06T10:11:31.234Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3de6a4ce-eaa9-45cb-919b-a4906bb6f621",
+        "title": "Travel Photography Tips",
+        "content": "Capture stunning photographs while traveling with these useful tips.",
+        "created_at": "2023-09-07T06:23:18.829Z",
+        "updated_at": "2023-09-06T22:49:56.033Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "50ab95a5-f5db-47ea-8053-68e754ec1607",
+        "email": "Hugh0@hotmail.com",
+        "firstName": "Elenor",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/910.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e3cc92fa-fefd-4df1-9163-47054fac6f73",
+        "email": "Brigitte90@gmail.com",
+        "firstName": "Dorris",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/866.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f7a98f9-3638-4d50-a37c-72425e779d70",
+        "email": "Valentin.Batz@gmail.com",
+        "firstName": "Deja",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/608.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f73fa57-200d-4f68-b16a-6da30f1a9b1d",
+        "email": "Beulah.Wuckert83@yahoo.com",
+        "firstName": "Efren",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1245.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64637576-f4bd-4885-9d20-0e9c16ba96ad",
+        "email": "Garrison_Witting@hotmail.com",
+        "firstName": "Maia",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30480009",
+        "tenantId": null
+      }
+    ]
+  }
+]
